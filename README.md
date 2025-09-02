@@ -1,2 +1,12 @@
-# SAFEGEN-Safeguarding-AI-generated-Content-Through-Enhanced-Watermarking
-An unique approach to embedding hidden watermarking into the outputs of LLM's (GPT-4 in particular). Using a combination of word frequency analysis and context guiding the LLM, we can discretely add text in responses that enable improved AI detectability without compromising output quality.
+# Data Registry
+
+Keep raw, interim, and processed data in the respective folders. Never edit files in `data/raw/`.
+
+## Guidelines
+- **Do not** commit private or large raw data to Git. Prefer Git LFS for large, non-sensitive artifacts, or host externally.
+- Record each dataset in the table below.
+
+| Alias | Path | Source | License | Rows | Columns | Notes |
+|------:|:-----|:-------|:--------|-----:|--------:|:------|
+| test_analysis | data/interim/test_analysis.csv | Excel export | TBD | - | - | Converted from the provided spreadsheet |
+
